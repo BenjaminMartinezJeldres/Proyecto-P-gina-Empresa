@@ -1,0 +1,121 @@
+/*para que la pagina comience de lo mas alto y sin margen*/
+*{
+    margin: 0px;
+    padding:0%;
+
+}
+
+body{
+background-color: white;
+background-image: url("imagenes/fondo\ 1.jpg");
+background-repeat: no-repeat-y;
+}
+
+
+
+    #container{
+        width: 60%;
+        /*widht:1100px;*/
+        margin: 0px auto;
+        border:3px solid black;
+    }
+
+    header{
+        background:cadetblue ;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+        /*para cambiar color al texto: (color:white;)*/
+        border-bottom:3px solid black ;
+
+    }
+    /*color para los tabs*/
+    nav{
+        background-color: lightblue;
+        height: 50px;
+        border-bottom: solid black 1px;
+    }
+/*para que los tabs se pongan en fila*/
+nav ul li{
+
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+
+
+.clearfix{
+    clear:both ;
+}
+
+/*fondo del contenido*/
+#content{
+    float:left;
+    width: 100%;
+    background-color:whitesmoke;
+    min-height: 500px;
+}
+
+/*
+aside{
+    float:left;
+    width:calc(20%- 20px) ;
+    background-color:grey;
+    min-height: 500px;
+    padding: 10px;
+
+}*/
+footer{
+    background-color: black;
+    color:white ;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.profile{
+    background-image: url("imagenes/profile\ jmr.png");
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-position:50% 50% ;
+    border-radius: 50% ;
+}
+
+.photo1{
+
+    background-image: url("imagenes/Hospedaje_re1.png");
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo2{
+    
+    background-image: url("imagenes/Hospedaje2_re.png");
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
